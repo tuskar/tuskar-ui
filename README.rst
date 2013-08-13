@@ -2,8 +2,8 @@ tuskar-ui
 =========
 
 **tuskar-ui** is a user interface for
-`Tuskar <https://github.com/tuskar/tuskar>`__, a management API for
-OpenStack deployments. It is based on (and forked from) `OpenStack
+`Tuskar <https://launchpad.net/tuskar>`__, a management API for
+OpenStack deployments. It builds on `OpenStack
 Horizon <https://wiki.openstack.org/wiki/Horizon>`__.
 
 High-Level Overview
@@ -14,23 +14,25 @@ as much as possible. We use existing Horizon libraries and components
 where possible. If added libraries and components are needed, we will 
 work with the OpenStack community to push those changes back into Horizon.
 
-Installation Guide
-------------------
+Code Repository
+---------------
 
-Use the `Installation Guide <https://github.com/tuskar/tuskar-ui/blob/master/docs/install.rst>`_ to install Tuskar-UI.
+We've moved the code to `stackforge <https://github.com/stackforge>`__ 
+to be more familiar to the OpenStack developers. Please go there if you
+want to check it out:
 
-License
--------
+    git clone https://github.com/stackforge/tuskar-ui.git
 
-This project is licensed under the Apache License, version 2. More
-information can be found in the LICENSE file.
+The list of bugs and blueprints is on Launchpad:
 
-Further Documentation
----------------------
+`<https://launchpad.net/tuskar-ui>`__
 
-Check out our `docs directory 
-<https://github.com/tuskar/tuskar-ui/blob/master/docs/index.rst>`_
-for expanded documentation.
+We use OpenStack's Gerrit for the code contributions:
+
+`<https://review.openstack.org/#/q/status:open+project:stackforge/tuskar-ui,n,z>`__
+
+and we follow the `OpenStack Gerrit Workflow <https://wiki.openstack.org/wiki/Gerrit_Workflow>`__.
+
 
 Contact Us
 ----------
@@ -39,3 +41,5 @@ Join us on IRC (Internet Relay Chat)::
 
     Network: Freenode (irc.freenode.net/tuskar)
     Channel: #tuskar
+
+Or send an email to openstack-dev@lists.openstack.org.
